@@ -8,9 +8,11 @@ Following command can be use to install and update R on Ubuntu
 
 <code>sudo apt-get update
 sudo apt-get install r-base r-base-dev
+
 sudo apt-get upgrade</code>
 
 #Know R version
+
 <code>R --version</code>
 
 
