@@ -33,4 +33,13 @@ After successful completeion, two files will be generated: This correlation matr
    <code>Rscript JASPAR.R G10Hpro</code>
    
    The file <code> G10Hpro </code> contains the promoter sequence in FASTA format. After successful completeion, a directory  <code>G10Hpro.result </code> with raw data, a table  <code>G10Hpro.result.csv </code> and an image  <code>G10Hpro.png </code> file will be created.  
+   
+   
+   # Citation
+   
+   Please cite this book chapter if you find these scripts useful for your work
+   
+   
+   
+   For any question and comment, please email me -  ssi228@uky.edu
 
