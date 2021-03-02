@@ -18,5 +18,12 @@ Following command can be use to install and update R on Ubuntu
 
 # Running the Scripts
 
+1. For coexpression analysis. 
+   This R script requires two libraries <code>RColorBrewer</code>  and <code>gplots</code>, can be run from Ubuntu terminal like this 
+   
+   <code>Rscript coexpression.R tissue</code>
+
+After successful completeion, two files will be generated: This correlation matrix (<code>tissue_coexpression_matrix.txt</code>) and a heatmap (<code>tissue.expression.pdf</code>)
+
 This script provides an overview of commands for the analysis pipeline of protein complexes from SEC-Evosep-SWATH data. For quantitative data extraction the OpenSWATH Workflow (OSW) (Rost et al. 2014) is applied and subsequent statiscal scoring of co-elution proteins with the R-package CCprofiler. To conduct the trial experiment, download the *.mzXML data, the spectral assay library, and iRT file from ProteomeXchange (data set identifier: XXXX). Installation instruction for applied software tools and detailed instructions about commands and parameters are documented on http://openswath.org/en/latest/ .
 
