@@ -28,6 +28,9 @@ The file <code> tissue </code> contains the expression value iin the form of RPK
 
 After successful completeion, two files will be generated: This correlation matrix (<code>tissue_coexpression_matrix.txt</code>) and a heatmap (<code>tissue.expression.pdf</code>)
 
+
+
+
 2. <bold> TRANSCRIPTION FACTOR BINDING SITE ANALYSIS: <code> JASPAR.R</code>  </bold> 
   
   This R script requires following libraries <code>TFBSTools</code>,  <code>JASPAR2020</code>, <code>Biostrings</code>, <code>GenomicRanges</code>, <code>dplyr</code>, <code>ggplot2</code>, and can be run from Ubuntu terminal like this
@@ -37,7 +40,8 @@ After successful completeion, two files will be generated: This correlation matr
    The file <code> G10Hpro </code> contains the promoter sequence in FASTA format. After successful completeion, a directory  <code>G10Hpro.result </code> with raw data, a table  <code>G10Hpro.result.csv </code> and an image  <code>G10Hpro.png </code> file will be created.  
    
    
-   # Citation
+  
+  # Citation
    
    Please cite this book chapter if you find these scripts useful for your work
    
