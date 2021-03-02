@@ -16,7 +16,7 @@ Following command can be use to install and update R on Ubuntu
 
 <code>R --version</code>
 
-
+# Running the Scripts
 
 This script provides an overview of commands for the analysis pipeline of protein complexes from SEC-Evosep-SWATH data. For quantitative data extraction the OpenSWATH Workflow (OSW) (Rost et al. 2014) is applied and subsequent statiscal scoring of co-elution proteins with the R-package CCprofiler. To conduct the trial experiment, download the *.mzXML data, the spectral assay library, and iRT file from ProteomeXchange (data set identifier: XXXX). Installation instruction for applied software tools and detailed instructions about commands and parameters are documented on http://openswath.org/en/latest/ .
 
