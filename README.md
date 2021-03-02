@@ -5,6 +5,7 @@ In this repository the code for coexpression and promoter analysis is provided. 
 Following command can be use to install and update R on Ubuntu
 
 #Update and Install R
+
 <code>sudo apt-get update
 sudo apt-get install r-base r-base-dev
 sudo apt-get upgrade</code>
