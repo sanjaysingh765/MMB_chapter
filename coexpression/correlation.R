@@ -18,7 +18,7 @@ if (length(args)< 1) {
   #check if required libraries are installed. Install the required libraries
   if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
   if (!require("gplots")) BiocManager::install("gplots")
-  if (!require("gplots")) BiocManager::install("RColorBrewer")
+  if (!require("RColorBrewer")) BiocManager::install("RColorBrewer")
 
 
 # load the required libraries
